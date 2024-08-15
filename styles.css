@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.popUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    background-color: white;
+    width: 14rem;
+    height: 10rem;
+}
+
+.popUp--description {
+    margin-block: 1rem;
+}

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AutoTrader PriorityBlocker",
+  "version": "1.0",
+  "description": "Block Priority Listings on AutoTrader Canada's Website!",
+  "action": {
+      "default_popup": "priorityBlocker.html"
+  },
+  "content_scripts": [
+      {
+        "js": ["scripts/content.js"],
+        "matches": [
+          "https://www.autotrader.ca/*"
+        ]
+      }
+  ],
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
