@@ -1,7 +1,7 @@
 
 # AutoTrader PriorityBlocker
 
-<img src="./images/Extension Photo.jpg"/>
+<img src="./images/README Image.jpg"/>
 
 A simple chrome extension that blocks "Priority Listings" and several other banner advertisements that appear on AutoTrader's Vehicle Search.
 
