@@ -6,7 +6,7 @@ function clearPriorityListings() {
     priorityListingsDivider.remove();
 
     if (searchListings) {
-        for (var i = 0; i < searchListingsChildren.length; i++) {
+        for (let i = 0; i < searchListingsChildren.length; i++) {
             if (searchListingsChildren[i].classList.contains("priority-qa") 
                 || searchListingsChildren[i].classList.contains("billboard") 
                 || searchListingsChildren[i].classList.contains("billboardBannerElement")) 
